@@ -1,4 +1,37 @@
 
+
+/*
+Como un mapa mental, escriban con sus palabras el razonamiento con el tienen pensado elaborar cada pregunta
+Qué tienen pensado hacer en cada uno de estos pasos, qué métodos van a elegir y por qué. 
+
+______________________________________________________________________________________________________________
+Escriban acá su razonamiento y explicación de todo tu proceso
+_________________________________________________________________________________________________________
+
+Lo primero que queremos hacer es mostrar el nombre del grupo en pantalla y en la consola. Para eso, usamos un objeto que guarda la información del grupo. 
+La idea es que esta parte sea simple, solo para verificar que todo está funcionando bien desde el principio.
+Queremos que el usuario vea el nombre del grupo en la página, así que use un poco de JavaScript para escribirlo en el lugar correcto.
+
+Después, vamos a armar una lista de productos con un array de objetos. 
+Cada producto tiene un nombre, precio e imagen.
+Esto me sirve como "base de datos" para trabajar más adelante.
+
+Una vez que tenemos los productos, el siguiente paso es mostrarlos en la pantalla. 
+La idea es crear dinámicamente las tarjetas de cada producto, que incluyan la imagen, el nombre, el precio y un botón para agregarlos al carrito. 
+Esto lo hacemos recorriendo el array de productos y generando el HTML de manera automática.
+
+También pense en agregar un buscador para que el usuario pueda filtrar los productos por nombre. 
+Esto lo hacemos asi: cada vez que el usuario escribe algo, revisamos qué productos coinciden y actualizamos la vista con los resultados.
+
+Después, pasamos al carrito de compras. aca es donde el usuario puede guardar los productos que le interesan.
+Use un array para representar el carrito y le agregue funciones para sumar o quitar productos. 
+Queremos que sea algo práctico y fácil de usar. Además, añadimos un contador para mostrar cuántos productos hay en el carrito y calculamos el precio total automáticamente.
+
+Por último, se guarda el carrito en el navegador usando localStorage, para que no se pierdan los datos si el usuario actualiza la página. 
+*/
+
+
+
 // Objeto con información del grupo
 const grupo = {
     nombre: "Grupo 02",
